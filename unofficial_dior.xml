@@ -12,7 +12,6 @@
 <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="dior" revision="cm-11.0" />
 <remove-project name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" />
 <project name="Chroma-Aosp/android_frameworks_webview" path="frameworks/webview" remote="github" revision="lp5.1" />
-<!--<project path="frameworks/webview" name="ProjectX-Android/frameworks_webview" remote="github" revision="lollipop-5.1" />-->
 <project name="PhilZ-cwm6/philz_touch_cwm6" path="bootable/recovery-philz" remote="dior" revision="cm-11.0" />
 
 </manifest>
