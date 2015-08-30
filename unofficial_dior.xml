@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="dior" fetch="https://github.com"/>
+<!--<project path="kernel/xiaomi/dior" name="MiCode/H1S_HM-NOTE-LTE_kernel" remote="dior" revision="dior-kk-oss"/>-->
+<project name="koush/Widgets" path="external/koush/Widgets" remote="dior" revision="master" />
+<!--<project name="sileshn/android_vendor_xiaomi_dior" path="vendor/xiaomi/dior" remote="dior" revision="cm-12.0" />-->
+<!--<project name="sileshn/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="dior" revision="cm-12.0" />-->
+<!--<project name="Stane1983/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="dior" revision="cm-12.0" />-->
+<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="dior" revision="cm-12.0" />
+<project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="dior" revision="cm-11.0" />
+<project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="dior" revision="cm-11.0" />
+<remove-project name="CyanogenMod/android_frameworks_webview" path="frameworks/webview" />
+<project name="Chroma-Aosp/android_frameworks_webview" path="frameworks/webview" remote="github" revision="lp5.1" />
+<!--<project path="frameworks/webview" name="ProjectX-Android/frameworks_webview" remote="github" revision="lollipop-5.1" />-->
+<project name="PhilZ-cwm6/philz_touch_cwm6" path="bootable/recovery-philz" remote="dior" revision="cm-11.0" />
+
+</manifest>
