@@ -1,7 +1,4 @@
-# local_manifests
-Local manifests for my devices, clone to .repo/local_manifest to build CyanogenMod with my trees and customizations!
+# Manifest for stable CM12 dior
+Local manifests for stable Unofficial CM12 on Redmi Note 4G, clone to .repo/local_manifest and repo sync to download everything needed to compile stable CM12. Then, just 'lunch cm_dior-userdebug' and 'make -j4 otapackage' to build. Good luck! :)
 
-Branches:
-dior is for the Redmi Note 4G
-jflte is for the Qualcomm Galaxy S4
 
