@@ -1,0 +1,27 @@
+<! DOCTYPE html>
+<html>
+<head><title>Dev trees for Dior</title></head>
+<body>
+<p><b>Here you will find the device, kernel and vendor trees for the Dior, which is the codename for the Xiaomi Redmi Note 4G single SIM, as well as a tutorial on how to use these repos :)</b></p>
+<p><b>Sources URLs:</b></p>
+<h1>
+<a href="https://github.com/haoyangw/android_device_xiaomi_dior">https://github.com/haoyangw/android_device_xiaomi_dior</a>(stock branch is <mark>cm-12.0-stable</mark>)
+<a href="https://github.com/haoyangw/android_kernel_xiaomi_dior">https://github.com/haoyangw/android_kernel_xiaomi_dior</a>(stock branch is <mark>aud</mark>)
+<a href="https://github.com/haoyangw/android_vendor_xiaomi_dior">https://github.com/haoyangw/android_device_xiaomi_dior</a>(stock branch is <mark>stable-cm12</mark>)
+</h1>
+<p>Syncing the trees manually using Repo:</p>
+<ol>
+<li>Create a new XML file in ".repo/local_manifests" or open your existing local manifest. For more info on the local manifest, check <a href="https://wiki.cyanogenmod.org/w/Doc:_Using_manifests">CyanogenMod's wiki</a></li>
+<li>Add the following lines to the manifest file:
+<mark>
+<remote name="dior" fetch="https://github.com"/>
+<project name="haoyangw/android_vendor_xiaomi_dior" path="vendor/xiaomi/dior" remote="dior" revision="stable-cm12" />
+<project name="haoyangw/android_device_xiaomi_dior" path="device/xiaomi/dior" remote="dior" revision="cm-12.0-stable" />
+<project name="haoyangw/android_kernel_xiaomi_dior" path="kernel/xiaomi/dior" remote="dior" revision="aud" />
+</mark>
+</li>
+<li>Lastly, do a <mark>repo sync haoyangw/android_device_xiaomi_dior haoyangw/android_kernel_xiaomi_dior haoyangw/android_vendor_xiaomi_dior</mark></li>
+</ol>
+<p>And that's it! Feel free to modify the sources and make your builds :) But of course, do share ;)</p>
+</body>
+</html>
