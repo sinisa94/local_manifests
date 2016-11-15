@@ -14,7 +14,7 @@ And then you're done! Just do a `repo sync` next time and everything will be set
 First, do this in the Android source directory(assuming local_manifests is _not already_ a git repository):  
 `cd .repo/local_manifests`  
 Next, do the following:  
-`git init  
-git remote add why https://github.com/haoyangw/local_manifests.git  
-git fetch why aosp7.1-dior`  
-And then the next time you do a `repo sync`, everything will be set up nicely! :)  
+`git init <br />
+git remote add why https://github.com/haoyangw/local_manifests.git <br />
+git fetch why aosp7.1-dior <br />`
+And then the next time you do a `repo sync`, everything will be set up nicely! :)
