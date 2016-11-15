@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="gh" fetch="https://github.com" />
+<remove-project path="art" name="platform/art" />
+<project path="art" name="CyanogenMod/android_art" remote="gh" revision="cm-14.1" />
+<remove-project path="build" name="platform/build" />
+<project path="build" name="haoyangw/android_build" remote="gh" revision="aosp7.1" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+<project path="device/xiaomi/dior" name="haoyangw/android_device_xiaomi_dior" remote="gh" revision="aosp7.1" />
+<project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="gh" revision="cm-14.1" />
+<project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="gh" revision="cm-14.1" />
+<project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="gh" revision="cm-14.1" />
+<project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="gh" revision="cm-14.1" />
+<remove-project path="frameworks/av" name="platform/frameworks/av" />
+<project pathh="frameworks/av" name="haoyangw/android_frameworks_av" revvision="aosp7.1" />
+<remove-project path="frameworks/native" name="platform/frameworks/native" />
+<project path="frameworks/native" name="haoyangw/android_frameworks_native" revision="aosp7.1" />
+<remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
+<project path="hardware/qcom/audio" name="haoyangw/android_hardware_qcom_audio" remote="gh" revision="aosp7.1" />
+<remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+<project path="hardware/qcom/media" name="haoyangw/android_hardware_qcom_media" remote="gh" revision="aosp7.1" />
+<remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
+<project path="hardware/qcom/display" name="haoyangw/android_hardware_qcom_display" remote="gh" revision="aosp7.1" />
+<remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+<project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="gh" revision="cm-14.1" />
+<remove-project path="system/core" name="platform/system/core" />
+<project path="system/core" name="haoyangw/android_system_core" revision="aosp7.1" />
+<remove-project path="system/sepolicy" name="platform/system/sepolicy" />
+<project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" remote="gh" revision="cm-14.1" />
+<project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="gh" revision="cm-14.1" />
+</manifest>
