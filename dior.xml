@@ -13,7 +13,7 @@
 <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="gh" revision="cm-14.1" />
 <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="gh" revision="cm-14.1" />
 <remove-project path="frameworks/av" name="platform/frameworks/av" />
-<project pathh="frameworks/av" name="haoyangw/android_frameworks_av" revvision="aosp7.1" />
+<project path="frameworks/av" name="haoyangw/android_frameworks_av" revvision="aosp7.1" />
 <remove-project path="frameworks/native" name="platform/frameworks/native" />
 <project path="frameworks/native" name="haoyangw/android_frameworks_native" revision="aosp7.1" />
 <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
