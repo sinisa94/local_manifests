@@ -25,7 +25,7 @@
 <remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
 <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="gh" revision="cm-14.1" />
 <remove-project path="system/core" name="platform/system/core" />
-<project path="system/core" name="haoyangw/android_system_core" revision="aosp7.1" />
+<project path="system/core" name="haoyangw/android_system_core" remote="gh" revision="aosp7.1" />
 <remove-project path="system/sepolicy" name="platform/system/sepolicy" />
 <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" remote="gh" revision="cm-14.1" />
 <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="gh" revision="cm-14.1" />
